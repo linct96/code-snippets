@@ -1,0 +1,10 @@
+{
+  "es6 引入模块": {
+    "prefix": "mimport",
+    "body": [
+      "import $1 from '$2'",
+      ""
+    ],
+    "description": "es6 引入模块，这里是描述"
+  }
+}

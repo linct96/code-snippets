@@ -1,0 +1,25 @@
+{
+    "name": "code-snippets",
+    "displayName": "Code Snippets",
+    "description": "",
+    "publisher": "linct96",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/linct96/code-snippets-vscode-plugin.git"
+    },
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
