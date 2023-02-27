@@ -1,10 +1,26 @@
 {
   "es6 引入模块": {
-    "prefix": "mimport",
+    "prefix": "imp",
     "body": [
       "import $1 from '$2'",
       ""
     ],
     "description": "es6 引入模块，这里是描述"
-  }
+  },
+  "Print log to console": {
+		"prefix": "clg",
+		"body": [
+			"console.log(${1:object})$0",
+      ""
+		],
+		"description": "Log output to console"
+	},
+	"Print error to console": {
+		"prefix": "cer",
+		"body": [
+			"console.error(${1:error})$0",
+      ""
+		],
+		"description": "Log error output to console"
+	}
 }

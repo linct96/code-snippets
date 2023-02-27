@@ -3,7 +3,7 @@
     "displayName": "Code Snippets",
     "description": "",
     "publisher": "linct96",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": {
         "type": "git",
         "url": "https://github.com/linct96/code-snippets-vscode-plugin.git"
@@ -18,7 +18,28 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/base.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/base.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/base.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/base.code-snippets"
+            },
+            
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/react.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react.code-snippets"
             }
         ]
     }

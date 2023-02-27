@@ -1,0 +1,10 @@
+{
+  "es6 引入模块 from js": {
+    "prefix": "imp",
+    "body": [
+      "import $2 from '$1'",
+      ""
+    ],
+    "description": "es6 引入模块"
+  },
+}
