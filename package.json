@@ -1,46 +1,24 @@
 {
-    "name": "code-snippets",
-    "displayName": "Code Snippets",
-    "description": "",
-    "publisher": "linct96",
-    "version": "0.0.2",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/linct96/code-snippets-vscode-plugin.git"
-    },
-    "engines": {
-        "vscode": "^1.62.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/base.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/base.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/base.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/base.code-snippets"
-            },
-            
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/react.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/react.code-snippets"
-            }
-        ]
-    }
+	"name": "code-snippets",
+	"displayName": "Code Snippets",
+	"description": "",
+	"publisher": "linct96",
+	"version": "0.0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/linct96/code-snippets-vscode-plugin.git"
+	},
+	"engines": {
+		"vscode": "^1.62.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"path": "./snippets/index.code-snippets"
+			}
+		]
+	}
 }
