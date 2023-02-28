@@ -3,7 +3,7 @@
 	"displayName": "Code Snippets",
 	"description": "",
 	"publisher": "linct96",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/linct96/code-snippets-vscode-plugin.git"
